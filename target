@@ -1,0 +1,82 @@
+[
+  {
+    "id": "test-google-home-page-functionality",
+    "description": "",
+    "name": "Test Google Home page Functionality",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "test-google-home-page-functionality;test-functionality-of-google-search",
+        "description": "",
+        "keyword": "Scenario",
+        "name": "Test functionality of Google Search",
+        "line": 2,
+        "steps": [
+          {
+            "result": {
+              "duration": 4187576999,
+              "status": "passed"
+            },
+            "keyword": "Given ",
+            "name": "User Should be able to open the Browser",
+            "line": 3,
+            "match": {
+              "location": "StepDefination.this_is_my_first_step()"
+            }
+          },
+          {
+            "result": {
+              "duration": 6426017389,
+              "status": "passed"
+            },
+            "keyword": "When ",
+            "name": "User Enters the Google Home page url",
+            "line": 4,
+            "match": {
+              "location": "StepDefination.this_is_my_second_step()"
+            }
+          },
+          {
+            "result": {
+              "duration": 255128151,
+              "status": "passed"
+            },
+            "keyword": "And ",
+            "name": "User Enters Random Value on Search bar",
+            "line": 5,
+            "match": {
+              "location": "StepDefination.user_Enters_Random_Value_on_Search_bar()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3017505933,
+              "status": "passed"
+            },
+            "keyword": "And ",
+            "name": "User press Enter",
+            "line": 6,
+            "match": {
+              "location": "StepDefination.user_Clicks_on_Google_Search_Button()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2022984363,
+              "status": "passed"
+            },
+            "keyword": "Then ",
+            "name": "Result should be displayed",
+            "line": 7,
+            "match": {
+              "location": "StepDefination.this_is_my_final_step()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "src/Feature.feature"
+  }
+]
